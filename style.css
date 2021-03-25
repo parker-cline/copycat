@@ -1,0 +1,81 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: 'Cardo', serif;
+  margin: 2em;
+  background-color: #f3f9ff;
+  color: black;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  cursor: pointer;
+}
+
+button:active, button.lit {
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  transform: scale(1.15);
+}
+
+#button1 {
+  background-image: linear-gradient(lightgreen, green);
+}
+#button1:active, #button1.lit {
+    background: green;
+}
+
+#button2 {
+    background-image: linear-gradient(lightblue, blue)
+}
+#button2:active, #button2.lit{
+    background: blue;
+}
+
+#button3 {
+    background-image: linear-gradient(white, red);
+}
+#button3:active, #button3.lit{
+    background: red;
+}
+
+#button4 {
+    background-image: linear-gradient(white, yellow);
+}
+#button4:active, #button4.lit{
+    background: goldenrod;
+}
+
+#button5 {
+    background-image: linear-gradient(lightyellow, orange);
+}
+#button5:active, #button5.lit{
+    background: darkorange;
+}
+
+#button6 {
+    background-image: linear-gradient(lightblue, indigo);
+}
+#button6:active, #button6.lit{
+    background: indigo;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+.hidden {
+  display: none;
+}
